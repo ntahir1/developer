@@ -1,0 +1,236 @@
+.navbar {
+      margin-bottom: 0;
+      background-color: #ffffff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+    font-family: 'Raleway', sans-serif;
+     padding-top: 24px;
+}
+.navbar li a, .navbar .navbar-brand {
+      color: #6a6e78 !important;
+  }
+   .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #00cdfa!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+ .navbar-brand {
+       margin-right: 60px;
+	
+ }
+ .navbar-brand  img{
+	 
+	 margin-left: -74px;
+	    margin-top: -24px;
+		float:left;
+ }
+ #present{
+	 background:#f7f7f7;
+     padding: 184px;
+    padding-left: 69px;
+}
+ 
+ #present h1{
+	 color:#00bff8;
+	 font-family: 'Raleway', sans-serif;
+ }
+ #present p{
+	 color:#808080;
+	 margin-top: 24px;
+	 font-size:12.59px
+ }
+.serching
+{
+	float: left;
+    width: 100%;
+	background:#ffffff;
+	color:white;
+	    margin-top: 79px;
+} 
+
+ body
+ {
+	 background:#f7f7f7;
+ }
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+.back img{
+	    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    float: left;
+}
+.back h1{
+	    color: #5b606b;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+	text-align:center;
+}
+.back p{
+	    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+	text-align:center;
+}
+.front p{
+	    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+	text-align:center
+}
+.front h1{
+	text-align:center;
+}
+.media a{
+	 color: #bdc1c4;
+    font-size: 35px;
+    padding-right: 24px;
+	margin-right: -117px;
+    margin-left: 107px;
+}
+#marketinginfo{
+	background:#00ccf9;
+	 height: 202px;
+    width: auto;
+}
+#marketinginfo p{    
+      color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 45px;
+    margin-left: 65px;
+    margin-top: 54px;
+	}
+#marketinginfo button{
+	    width: 274px;
+    height: 64px;
+	    margin-left: 104px;
+    margin-top: 68px;
+	color:#00d7fa;
+}
+#footer{
+	height:596px;
+	background:white;
+}
+#footer .marketing-item img {
+	    margin-top: 71px;
+    display: block;
+    margin-bottom: 30px;
+}
+.lastinfo{
+	    margin-top: 107px;
+    margin-left: -16px;
+}
+.anotherinfo{
+	    margin-left: 20px;
+    margin-top: 111px;
+}
+.platforminfo{
+	    margin-right: -42px;
+    margin-top: 110px;
+    margin-left: 12px;
+}
+.iconsocial{margin-top: 74px;
+   
+    padding-right: 14px;
+    left: 134px;
+    font-size: 25px;
+	    margin-left: -27px;
+   
+
+}
+.iconsocial h4{
+	font-size: 18px;
+    color: #00c9fa;
+    margin-top: 32px;
+}
+.iconsocial p{
+	color:#adadad;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 15px;
+	   
+}
+.forminput{
+     background-color: #00dafb;
+    border-radius: 7px;
+	color:white;
+	right: -3px;
+    color: white;
+}
+input{
+	    border-radius: 4px;
+    margin-left: -4px;
+    background-color: #8c8b8c;
+    color: white;
+    /* padding-left: 19px; */
+    text-align: center;
+}
+.rights{
+	    margin-top: 129px;
+}
+.privacyweb{
+	    margin-top:142px;
+    color: #a7a9ad;
+}
+ .fa {  
+   color: #d5d5d5;
+    position: relative;
+    right: 27px;
+   
+ }
+ .fa-envelope-o{
+	color:white;
+	right:-3px;
+ }
